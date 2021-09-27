@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1024px;
+    width: 1024px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.header__section{
+    width: 100vw;
+    height: 40vh;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header__section header{
+    width: 15rem;
+    height: 15rem;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -1rem;
+}
+
+
+.header__section header img{
+    width: 100%;
+    transition: all 0.5s ease-in;
+    filter: grayscale(100%);
+}
+
+.header__section:hover  header img{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+.name{
+    padding: 1rem 0;
+}
+
+.name h1{
+    font-size: 2.54rem;
+}
+
+.links__section{
+    padding: 1rem  0;
+}
+
+.links__section ul li{
+    padding-bottom: 0.6rem;
+
+}
+
+.links__section ul li a{
+    text-decoration: none;
+}
+
+
+.footer__section{
+    background-color: #ddd;
+    padding: 2rem 0;
+}

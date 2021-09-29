@@ -6,6 +6,7 @@
 body{
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
+    background-color: #242424;
 }
 
 .container{
@@ -14,6 +15,7 @@ body{
     margin: 0 auto;
     padding: 15px;
 }
+
 .header__section{
     width: 100vw;
     height: 40vh;
@@ -50,24 +52,54 @@ body{
 
 .name h1{
     font-size: 2.54rem;
+    color: #fff;
 }
 
 .links__section{
     padding: 1rem  0;
+    display: block;
+    padding: 1rem 0 4rem;
 }
-
+.links__section ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    
+    
+    
+}
 .links__section ul li{
-    padding-bottom: 0.6rem;
-
+    
 }
 
 .links__section ul li a{
     text-decoration: none;
+    background-color: #080808;
+    box-shadow: 1px 1px 6px rgb(39, 39, 39);
+    padding: 2rem 1rem;
+    margin-right: 0.5rem;
+    border-radius: 4px;
+    color:#fff;
+    transition: all 0.5s ease-in;
+    display: block;
+    text-align: center;
+    width: 250px;
 }
 
+.links__section ul li a span{
+    display: block;
+    font-size: 1.5rem;
+    width: 100%;
+    color: #fff;
+}
+
+.links__section ul li a:hover{
+    color: #ccccccc2;
+}
 
 .footer__section{
-    background-color: #ddd;
+    background-color: #010101;
+    color: #f1f1f1;
     padding: 2rem 0;
 }
 

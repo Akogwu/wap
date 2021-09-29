@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    background-color: #242424;
+}
+
+.container{
+    max-width: 1024px;
+    width: 1024px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.banner{
+    padding: 8rem 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    position: relative;
+}
+
+.banner h1{
+    font-size: 2.5rem;
+    color: #f1f1f1;
+}
+
+ .banner h3{
+    color: #d1d1d1;
+}
+
+.banner span{
+    color: gold;
+}
+
+.course__section .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses,.favorite{
+    padding: 2rem 0;
+}
+
+.courses h2,.favorite h2{
+    padding: 0.87rem 0;
+    color: goldenrod;
+}
+
+.courses li{
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 0.7rem;
+}
+
+.favorite h4{
+    padding-bottom: 0.43rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.favorite li{
+    padding: 0.34rem 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+.favorite li a{
+    padding-left: 0.432rem;
+    color: #fff;
+}
+.favorite li span{
+    color: red;
+}

@@ -63,12 +63,91 @@ body{
 
 .favorite li{
     padding: 0.34rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: #ffffff71;
 }
 .favorite li a{
     padding-left: 0.432rem;
-    color: #fff;
+    color: #ffffff71;
+    text-decoration-color: red;
 }
 .favorite li span{
     color: red;
+}
+
+.mood__section{
+    padding: 1.4rem 0;
+    background-color: #000;
+    width: 100vw;
+    height: 350px;
+}
+
+.mood__section h2{
+    color: #fff;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
+.mood__section .container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.mood__section .container .images{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.mood__section .container .images .img {
+    vertical-align: middle;
+    height: 200px;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.mood__section .container .images .img img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in;
+}
+
+.mood__section .container .images .img img:hover{
+    transform: scale(1.1) translateY(-10px);
+}
+.mood__section .container .images .img h5{
+    font-size: 1.4rem;
+    padding-top: 0.8rem;
+}
+.mood__section .container .images .img:nth-child(1) h5{
+    color: gold;
+}
+
+.footer__section{
+    background-color: #010101;
+    color: #f1f1f1;
+    padding: 2rem 0;
+}
+
+.footer__section .links {
+    display: flex;
+}
+
+.fun__facts{
+    padding: 4rem 0;
+}
+
+.fun__facts h2{
+    color: #f1f1f1;
+    padding-bottom: 0.643rem;
+}
+
+.fun__facts ul{
+    list-style: none;
+    color: #fff;
+}
+
+.validate{
+    padding: 1rem 0;
+    display: block;
 }

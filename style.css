@@ -56,22 +56,21 @@ body{
 }
 
 .links__section{
-    padding: 1rem  0;
     display: block;
     padding: 1rem 0 4rem;
 }
 .links__section ul{
     list-style: none;
-    display: flex;
-    justify-content: flex-start;
-    
-    
-    
-}
-.links__section ul{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 1px;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    
+    
 }
+
 
 .links__section ul li a{
     text-decoration: none;
@@ -85,6 +84,7 @@ body{
     display: block;
     text-align: center;
     width: 100%;
+
 }
 
 .links__section ul li a span{
